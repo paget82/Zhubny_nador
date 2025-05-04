@@ -1,20 +1,28 @@
-🧠 Logistická regrese – Klasifikace nádorů prsu
-📝 Zadání úlohy
-Cílem tohoto projektu je vytvořit klasifikační model pomocí logistické regrese, který na základě různých charakteristik nádorů (např. velikost, textura, tvar atd.) určí, zda se jedná o:
+# 🧠 Logistická regrese – Klasifikace nádorů prsu
 
-zhoubný (maligní – M), nebo
+## 📝 Zadání úlohy
+Cílem tohoto projektu je vytvořit klasifikační model pomocí **logistické regrese**, který na základě různých charakteristik nádorů (např. velikost, textura, tvar atd.) určí, zda se jedná o:
+- **Zhoubný (maligní – `M`)**
+- **Nezhoubný (benigní – `B`)**
 
-nezhoubný (benigní – B) nádor prsu.
+Dataset obsahuje **569 záznamů** a **30 numerických příznaků**.
 
-Použitý dataset obsahuje 569 záznamů s 30 numerickými příznaky.
+---
 
-🔧 Použité technologie
-Python
+## 🔧 Použité technologie
+- Python
+- Pandas
+- Seaborn
+- Scikit-learn
+- Matplotlib
 
-Pandas
+---
 
-Seaborn
+## 📊 Data
+Dataset obsahuje **33 sloupců**, z toho:
+- Sloupce `id` a `Unnamed: 32` byly odstraněny jako nepotřebné
+- Cílová proměnná: `diagnosis` (`M` nebo `B`)
+- 30 numerických příznaků popisujících tvary a struktury buněk
 
-Scikit-learn
+---
 
-Matplotlib

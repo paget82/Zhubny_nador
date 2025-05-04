@@ -19,7 +19,7 @@ Cílem tohoto projektu je vytvořit klasifikační model pomocí **logistické r
 
 ---
 
-## Závěr: 
+## 📌 Závěr: 
 - dokončili jsme naši analýzu. Využili jsme data z otevřeného datasetu Breast Cancer k vytvoření modelu, který dokáže na základě určitých měření jádra buňky předpovědět, zda je buňka zhoubná nebo ne.
 
 Tento model, nyní již natrénovaný, může být velmi užitečný pro rychlou analýzu buněk v nemocničním prostředí.

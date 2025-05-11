@@ -15,7 +15,7 @@ Cílem tohoto projektu je vytvořit klasifikační model pomocí **logistické r
 ---
 
 ## 📊 Data 
--  obsahuje **569 záznamů** a **30** numerických příznaků popisujících tvary a struktury buněk
+- 569 záznamů
 
 ---
 
